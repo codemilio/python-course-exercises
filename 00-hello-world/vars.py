@@ -1,6 +1,6 @@
 # Python é CaseSensitive, ou seja:
 
-nome_completo = ""
+nome_completo = "Evandro Ivanilson"
 
 # é diferente de: 
 
@@ -24,3 +24,29 @@ value_b = 3.14 # Real com ponto flutuante
 # type() 
 print("Classe pré-definida para inteiro = ", type(value_a))
 print("Classe pré-definida para ponto flutuante = ", type(value_b))
+
+# texto com quebra
+paragraphy_a = """
+  lorem ipsom
+  elson alseiunm
+"""
+
+paragraphy_b = "lorem \
+  ipsum"
+
+# Formatações
+print("nome completo:", nome_completo) # adiciona espaço automaticamente entre o ultimo caractere e a variável
+print("nome completo concatenado: " + nome_completo) # não adiciona espaço
+print("nome completo", nome_completo + "-4") # podemos usar os dois métodos juntos 
+print("texto com quebra:", paragraphy_a)
+print("texto sem quebra:", paragraphy_b)
+
+nome = "Carlos"
+sobrenome = "Silva"
+print("nome completo: %s %s" % (nome, sobrenome)) # faz a transformação das variáveis pra string
+
+# F-String (utilizar variáveis dentro de texto) 
+print(f"Nome: {nome} {sobrenome}")
+print("Nome: {} {}".format(nome, sobrenome))
+
+
