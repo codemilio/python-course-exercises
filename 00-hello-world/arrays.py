@@ -4,3 +4,8 @@ el = list[5]
 
 print("Minha lista:", list)
 print("Elemento 5: ", el)
+
+# Fatiamento (Slicing)
+print("Lista 0:4", list[:4])
+print("Lista 4:5", list[4:])
+print("Lista 2:4", list[2:4])
