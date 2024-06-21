@@ -9,3 +9,8 @@ print("Elemento 5: ", el)
 print("Lista 0:4", list[:4])
 print("Lista 4:5", list[4:])
 print("Lista 2:4", list[2:4])
+
+def getList(interval, myList): 
+  print('Interval is:', myList[interval[0]:interval[1]])
+
+getList([2, 6], list)
